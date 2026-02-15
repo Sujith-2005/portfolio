@@ -1,0 +1,114 @@
+:root {
+  --bg-color: #0a192f;
+  --text-primary: #ccd6f6;
+  --text-secondary: #8892b0;
+  --accent-color: #64ffda;
+  --card-bg: #112240;
+  --nav-bg: rgba(10, 25, 47, 0.85);
+
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-color);
+  background-image: radial-gradient(circle at 50% 0%, #112240 0%, var(--bg-color) 70%);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  border: 2px solid var(--bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 100px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-size: clamp(26px, 5vw, 32px);
+  white-space: nowrap;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -2px;
+  /* Slight visual adjustment */
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--card-bg);
+}
+
+.button {
+  color: var(--accent-color);
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  font-family: var(--font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  text-decoration: none;
+}
+
+p {
+  color: var(--text-secondary);
+}
