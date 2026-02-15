@@ -64,4 +64,3 @@ This project is ready to deploy on **Vercel**, **Netlify**, or **GitHub Pages**.
 - 💼 LinkedIn: [P. Sujith](https://www.linkedin.com/in/sujith-panganuri-9563522b6/)
 - 📧 Email: [sujithpanganuri2005@gmail.com](mailto:sujithpanganuri2005@gmail.com)
 ---
-*Built with ❤️ by P. Sujith*
