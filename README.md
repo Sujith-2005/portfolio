@@ -1,8 +1,7 @@
 # ⚡ Premium Personal Portfolio
 A fast, responsive, and aesthetically pleasing personal portfolio website built with **React**, **Vite**, and **Framer Motion**.  
-Designed to showcase skills, projects, and experience with a specialized "CEO-level" professional dark mode UI.
-![Portfolio Preview](./public/preview-placeholder.png) 
-*(Note: Add a screenshot of your site here as `preview.png` in the public folder)*
+Designed to showcase skills, projects, and experience with a specialized professional dark mode UI.
+
 ## 🚀 Features
 - **🎨 Modern Aesthetics**: Deep navy dark mode with glassmorphism and smooth radial gradients.
 - **✨ Smooth Animations**: Powered by `framer-motion` for reveal-on-scroll and hover effects.
